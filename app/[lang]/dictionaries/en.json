@@ -1,0 +1,10 @@
+{
+  "metadata": {
+    "title": "My Site",
+    "description": "Welcome to my site."
+  },
+  "home": {
+    "title": "Welcome",
+    "description": "This is the starting point of your project. Edit this page to get started."
+  }
+}
