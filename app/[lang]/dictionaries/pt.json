@@ -1,7 +1,12 @@
 {
   "metadata": {
+    "name": "VetTop - Clínica Veterinária",
     "title": "VetTop - Clínica Veterinária | Oeiras",
-    "description": "Cuidados veterinários de confiança em Oeiras. Consultas, cirurgia, vacinação, tosquia e serviço de emergência 24/7."
+    "description": "Cuidados veterinários de confiança em Oeiras. Consultas, cirurgia, vacinação, tosquia e serviço de emergência 24/7.",
+    "phone": "+351 21 195 0873",
+    "email": "",
+    "address": "R. de São Paulo 4A, 2780-037 Oeiras",
+    "type": "VeterinaryCare"
   },
   "navbar": {
     "brand": "VetTop",
