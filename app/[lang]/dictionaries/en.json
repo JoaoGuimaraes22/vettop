@@ -58,12 +58,12 @@
     "title_line1": "WHAT WE",
     "title_line2": "OFFER",
     "items": [
-      { "icon": "🩺", "title": "General Consultations", "description": "Comprehensive health exams, diagnostics, and personalized treatment plans for your pet.", "image": "/services/consultations.jpg" },
-      { "icon": "🔬", "title": "Surgery", "description": "From routine spay/neuter to complex procedures, performed with precision and care.", "image": "/services/surgery.jpg" },
-      { "icon": "💉", "title": "Vaccinations", "description": "Keep your pet protected with up-to-date vaccination schedules and preventive care.", "image": "/services/vaccinations.jpg" },
-      { "icon": "🦷", "title": "Dental Care", "description": "Professional dental cleanings, extractions, and oral health assessments.", "image": "/services/dental.jpg" },
-      { "icon": "✂️", "title": "Grooming", "description": "Baths, haircuts, nail trimming, and ear cleaning to keep your pet looking and feeling great.", "image": "/services/grooming.jpg" },
-      { "icon": "🚨", "title": "Emergency Care", "description": "24/7 emergency services for urgent situations. We're here when you need us most.", "image": "/services/emergency.jpg" }
+      { "icon": "🩺", "title": "General Consultations", "description": "Comprehensive health exams, diagnostics, and personalized treatment plans for your pet.", "image": "/services/consultations.webp" },
+      { "icon": "🔬", "title": "Surgery", "description": "From routine spay/neuter to complex procedures, performed with precision and care.", "image": "/services/surgery.webp" },
+      { "icon": "💉", "title": "Vaccinations", "description": "Keep your pet protected with up-to-date vaccination schedules and preventive care.", "image": "/services/vaccinations.webp" },
+      { "icon": "🦷", "title": "Dental Care", "description": "Professional dental cleanings, extractions, and oral health assessments.", "image": "/services/dental.webp" },
+      { "icon": "✂️", "title": "Grooming", "description": "Baths, haircuts, nail trimming, and ear cleaning to keep your pet looking and feeling great.", "image": "/services/grooming.webp" },
+      { "icon": "🚨", "title": "Emergency Care", "description": "24/7 emergency services for urgent situations. We're here when you need us most.", "image": "/services/emergency.webp" }
     ]
   },
   "team": {
@@ -71,20 +71,20 @@
     "title_line2": "TEAM",
     "subtitle": "Dedicated professionals who treat every pet like their own.",
     "members": [
-      { "name": "Dr. Daniel Carvalho", "role": "Head Veterinarian", "specialization": "Internal Medicine & Surgery", "image": "/team/daniel.jpg" },
-      { "name": "Dr. João Ferreira", "role": "Veterinarian", "specialization": "Dermatology & Nutrition", "image": "/team/joao.jpg" },
-      { "name": "Dr. Ana Costa", "role": "Veterinarian", "specialization": "Dental & Exotic Animals", "image": "/team/ana.jpg" },
-      { "name": "Sofia Oliveira", "role": "Vet Nurse", "specialization": "Patient Care & Recovery", "image": "/team/sofia.jpg" }
+      { "name": "Dr. Daniel Carvalho", "role": "Head Veterinarian", "specialization": "Internal Medicine & Surgery", "image": "/team/daniel.webp" },
+      { "name": "Dr. João Ferreira", "role": "Veterinarian", "specialization": "Dermatology & Nutrition", "image": "/team/joao.webp" },
+      { "name": "Dr. Ana Costa", "role": "Veterinarian", "specialization": "Dental & Exotic Animals", "image": "/team/ana.webp" },
+      { "name": "Sofia Oliveira", "role": "Vet Nurse", "specialization": "Patient Care & Recovery", "image": "/team/sofia.webp" }
     ]
   },
   "galleryStrip": {
     "images": [
-      { "src": "/gallery/1.jpg", "alt": "Dog being examined by veterinarian" },
-      { "src": "/gallery/2.jpg", "alt": "Cat resting after treatment" },
-      { "src": "/gallery/3.jpg", "alt": "VetTop clinic reception area" },
-      { "src": "/gallery/4.jpg", "alt": "Veterinary team at work" },
-      { "src": "/gallery/5.jpg", "alt": "Happy dog after grooming" },
-      { "src": "/gallery/6.jpg", "alt": "Modern veterinary equipment" }
+      { "src": "/gallery/1.webp", "alt": "Dog being examined by veterinarian" },
+      { "src": "/gallery/2.webp", "alt": "Cat resting after treatment" },
+      { "src": "/gallery/3.webp", "alt": "VetTop clinic reception area" },
+      { "src": "/gallery/4.webp", "alt": "Veterinary team at work" },
+      { "src": "/gallery/5.webp", "alt": "Happy dog after grooming" },
+      { "src": "/gallery/6.webp", "alt": "Modern veterinary equipment" }
     ]
   },
   "reviews": {

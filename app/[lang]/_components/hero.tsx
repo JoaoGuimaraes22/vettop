@@ -177,7 +177,7 @@ export default function Hero({ dict }: { dict: HeroDict }) {
               {/* Main large circle */}
               <div className="absolute left-1/2 top-1/2 h-36 w-36 -translate-x-[55%] -translate-y-[55%] overflow-hidden rounded-full ring-4 ring-white shadow-2xl sm:h-52 sm:w-52 lg:h-[22rem] lg:w-[22rem]">
                 <Image
-                  src="/gallery/1.jpg"
+                  src="/gallery/1.webp"
                   alt="Veterinarian with pet"
                   fill
                   sizes="(min-width: 640px) 256px, 208px"
@@ -188,7 +188,7 @@ export default function Hero({ dict }: { dict: HeroDict }) {
               {/* Secondary circle */}
               <div className="absolute right-0 top-1/2 h-24 w-24 -translate-y-[30%] overflow-hidden rounded-full ring-4 ring-white shadow-xl sm:h-36 sm:w-36 lg:h-52 lg:w-52">
                 <Image
-                  src="/gallery/2.jpg"
+                  src="/gallery/2.webp"
                   alt="Happy pet"
                   fill
                   sizes="(min-width: 640px) 176px, 144px"
@@ -199,7 +199,7 @@ export default function Hero({ dict }: { dict: HeroDict }) {
               {/* Small accent circle */}
               <div className="absolute bottom-6 left-8 h-16 w-16 overflow-hidden rounded-full ring-4 ring-white shadow-lg sm:h-24 sm:w-24 lg:bottom-8 lg:left-8 lg:h-40 lg:w-40">
                 <Image
-                  src="/gallery/3.jpg"
+                  src="/gallery/3.webp"
                   alt="Clinic interior"
                   fill
                   sizes="112px"

@@ -58,12 +58,12 @@
     "title_line1": "O QUE",
     "title_line2": "OFERECEMOS",
     "items": [
-      { "icon": "🩺", "title": "Consultas Gerais", "description": "Exames de saúde completos, diagnósticos e planos de tratamento personalizados para o seu animal.", "image": "/services/consultations.jpg" },
-      { "icon": "🔬", "title": "Cirurgia", "description": "Desde esterilização de rotina a procedimentos complexos, realizados com precisão e cuidado.", "image": "/services/surgery.jpg" },
-      { "icon": "💉", "title": "Vacinação", "description": "Mantenha o seu animal protegido com calendários de vacinação atualizados e cuidados preventivos.", "image": "/services/vaccinations.jpg" },
-      { "icon": "🦷", "title": "Cuidados Dentários", "description": "Limpezas dentárias profissionais, extrações e avaliações de saúde oral.", "image": "/services/dental.jpg" },
-      { "icon": "✂️", "title": "Tosquia e Banho", "description": "Banhos, cortes de pelo, corte de unhas e limpeza de ouvidos para o seu animal ficar sempre impecável.", "image": "/services/grooming.jpg" },
-      { "icon": "🚨", "title": "Cuidados de Emergência", "description": "Serviço de emergência 24/7 para situações urgentes. Estamos aqui quando mais precisa.", "image": "/services/emergency.jpg" }
+      { "icon": "🩺", "title": "Consultas Gerais", "description": "Exames de saúde completos, diagnósticos e planos de tratamento personalizados para o seu animal.", "image": "/services/consultations.webp" },
+      { "icon": "🔬", "title": "Cirurgia", "description": "Desde esterilização de rotina a procedimentos complexos, realizados com precisão e cuidado.", "image": "/services/surgery.webp" },
+      { "icon": "💉", "title": "Vacinação", "description": "Mantenha o seu animal protegido com calendários de vacinação atualizados e cuidados preventivos.", "image": "/services/vaccinations.webp" },
+      { "icon": "🦷", "title": "Cuidados Dentários", "description": "Limpezas dentárias profissionais, extrações e avaliações de saúde oral.", "image": "/services/dental.webp" },
+      { "icon": "✂️", "title": "Tosquia e Banho", "description": "Banhos, cortes de pelo, corte de unhas e limpeza de ouvidos para o seu animal ficar sempre impecável.", "image": "/services/grooming.webp" },
+      { "icon": "🚨", "title": "Cuidados de Emergência", "description": "Serviço de emergência 24/7 para situações urgentes. Estamos aqui quando mais precisa.", "image": "/services/emergency.webp" }
     ]
   },
   "team": {
@@ -71,20 +71,20 @@
     "title_line2": "EQUIPA",
     "subtitle": "Profissionais dedicados que tratam cada animal como se fosse seu.",
     "members": [
-      { "name": "Dr. Daniel Carvalho", "role": "Veterinário Chefe", "specialization": "Medicina Interna e Cirurgia", "image": "/team/daniel.jpg" },
-      { "name": "Dr. João Ferreira", "role": "Veterinário", "specialization": "Dermatologia e Nutrição", "image": "/team/joao.jpg" },
-      { "name": "Dr. Ana Costa", "role": "Veterinária", "specialization": "Dentária e Animais Exóticos", "image": "/team/ana.jpg" },
-      { "name": "Sofia Oliveira", "role": "Enfermeira Veterinária", "specialization": "Cuidados ao Paciente e Recuperação", "image": "/team/sofia.jpg" }
+      { "name": "Dr. Daniel Carvalho", "role": "Veterinário Chefe", "specialization": "Medicina Interna e Cirurgia", "image": "/team/daniel.webp" },
+      { "name": "Dr. João Ferreira", "role": "Veterinário", "specialization": "Dermatologia e Nutrição", "image": "/team/joao.webp" },
+      { "name": "Dr. Ana Costa", "role": "Veterinária", "specialization": "Dentária e Animais Exóticos", "image": "/team/ana.webp" },
+      { "name": "Sofia Oliveira", "role": "Enfermeira Veterinária", "specialization": "Cuidados ao Paciente e Recuperação", "image": "/team/sofia.webp" }
     ]
   },
   "galleryStrip": {
     "images": [
-      { "src": "/gallery/1.jpg", "alt": "Cão a ser examinado pelo veterinário" },
-      { "src": "/gallery/2.jpg", "alt": "Gato a descansar após tratamento" },
-      { "src": "/gallery/3.jpg", "alt": "Receção da clínica VetTop" },
-      { "src": "/gallery/4.jpg", "alt": "Equipa veterinária a trabalhar" },
-      { "src": "/gallery/5.jpg", "alt": "Cão feliz após tosquia" },
-      { "src": "/gallery/6.jpg", "alt": "Equipamento veterinário moderno" }
+      { "src": "/gallery/1.webp", "alt": "Cão a ser examinado pelo veterinário" },
+      { "src": "/gallery/2.webp", "alt": "Gato a descansar após tratamento" },
+      { "src": "/gallery/3.webp", "alt": "Receção da clínica VetTop" },
+      { "src": "/gallery/4.webp", "alt": "Equipa veterinária a trabalhar" },
+      { "src": "/gallery/5.webp", "alt": "Cão feliz após tosquia" },
+      { "src": "/gallery/6.webp", "alt": "Equipamento veterinário moderno" }
     ]
   },
   "reviews": {

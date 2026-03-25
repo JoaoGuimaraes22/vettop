@@ -23,9 +23,9 @@ function StarIcon({ className }: { className?: string }) {
 }
 
 const PET_PORTRAITS = [
-  { src: "/reviews/pet-1.jpg", alt: "Happy dog" },
-  { src: "/reviews/pet-2.jpg", alt: "Content cat" },
-  { src: "/reviews/pet-3.jpg", alt: "Playful puppy" },
+  { src: "/reviews/pet-1.webp", alt: "Happy dog" },
+  { src: "/reviews/pet-2.webp", alt: "Content cat" },
+  { src: "/reviews/pet-3.webp", alt: "Playful puppy" },
 ];
 
 export default function GoogleReviews({ dict }: { dict: GoogleReviewsDict }) {
