@@ -116,14 +116,14 @@ Save as: `public/about.jpg`
 
 ## People / Portraits (4 images)
 
-### team/maria.jpg
+### team/daniel.jpg
 - **Used in**: Team section — lead veterinarian, displayed as large 4:3 editorial hero photo spanning 60% of section width
 - **Display size**: Up to 60vw on desktop (aspect 4:3), full width on mobile. `object-cover` crop.
-- **Alt text**: "Dr. Maria Santos"
+- **Alt text**: "Dr. Daniel Carvalho"
 
-> Professional environmental portrait of a confident female veterinarian in her 40s, Southern European appearance, dark hair pulled back, wearing a clean white lab coat over teal scrubs. Shot in a modern veterinary clinic setting in Portugal. She is standing beside an examination table with one hand gently resting on it, warm genuine smile, direct eye contact with the camera. Natural window light from the left, soft fill light. Shallow depth of field blurring clinical equipment in the background. Warm, approachable, trustworthy mood. Editorial magazine portrait style, high-end commercial quality. Photorealistic. No text, no watermarks. 1600x1200 landscape (4:3).
+> Professional environmental portrait of a male veterinarian in his late 30s, Southern European appearance, short dark hair, light stubble, wearing a clean white lab coat over teal scrubs. Shot in a modern veterinary clinic setting in Portugal. He is standing beside an examination table with one hand gently resting on it, warm genuine smile, direct eye contact with the camera. Natural window light from the left, soft fill light. Shallow depth of field blurring clinical equipment in the background. Warm, approachable, trustworthy mood. Editorial magazine portrait style, high-end commercial quality. Photorealistic. No text, no watermarks. 1600x1200 landscape (4:3).
 
-Save as: `public/team/maria.jpg`
+Save as: `public/team/daniel.jpg`
 
 ### team/joao.jpg
 - **Used in**: Team section — secondary team member, displayed as 3:4 portrait card

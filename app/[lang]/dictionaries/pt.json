@@ -66,7 +66,7 @@
     "title_line2": "EQUIPA",
     "subtitle": "Profissionais dedicados que tratam cada animal como se fosse seu.",
     "members": [
-      { "name": "Dr. Maria Santos", "role": "Veterinária Chefe", "specialization": "Medicina Interna e Cirurgia", "image": "/team/maria.jpg" },
+      { "name": "Dr. Daniel Carvalho", "role": "Veterinário Chefe", "specialization": "Medicina Interna e Cirurgia", "image": "/team/daniel.jpg" },
       { "name": "Dr. João Ferreira", "role": "Veterinário", "specialization": "Dermatologia e Nutrição", "image": "/team/joao.jpg" },
       { "name": "Dr. Ana Costa", "role": "Veterinária", "specialization": "Dentária e Animais Exóticos", "image": "/team/ana.jpg" },
       { "name": "Sofia Oliveira", "role": "Enfermeira Veterinária", "specialization": "Cuidados ao Paciente e Recuperação", "image": "/team/sofia.jpg" }
@@ -87,12 +87,12 @@
     "title_line2": "OS DONOS",
     "subtitle": "Histórias reais das famílias que nos confiam os seus animais.",
     "items": [
-      { "quote": "A equipa da VetTop salvou a vida do nosso cão numa emergência. Nunca mais vamos a outro sítio.", "name": "Ana M.", "role": "Oeiras", "avatar": null },
-      { "quote": "A Dra. Santos é incrível. Explicou tudo com paciência e o nosso gato esteve nas melhores mãos.", "name": "Pedro L.", "role": "Oeiras", "avatar": null },
-      { "quote": "Profissionais, atenciosos e sempre disponíveis. A VetTop é o nosso veterinário há 8 anos.", "name": "Mariana C.", "role": "Cascais", "avatar": null },
-      { "quote": "O serviço de tosquia é fantástico. O nosso golden retriever sai sempre como um cão de exposição!", "name": "Ricardo S.", "role": "Oeiras", "avatar": null },
-      { "quote": "Preços justos e cuidados excelentes. Aqui adoram verdadeiramente os animais.", "name": "Sofia T.", "role": "Carcavelos", "avatar": null },
-      { "quote": "A melhor clínica veterinária da zona. Instalações limpas, equipamento moderno e uma equipa que se preocupa genuinamente.", "name": "Miguel F.", "role": "Oeiras", "avatar": null }
+      { "quote": "Ficámos sempre impressionados com o profissionalismo e dedicação na VetTop. Se não tivéssemos mudado de cidade, ainda estaríamos a levar o nosso cão difícil a esta clínica. Altamente recomendado!", "name": "Philipp B.", "role": "Avaliação Google", "avatar": null },
+      { "quote": "Quando levei a Lily à VetTop, perceberam logo a situação e sabiam exatamente o que fazer. Em poucos dias, a Lily começou a melhorar e agora recuperou completamente. Estou imensamente grata!", "name": "Roberta D.", "role": "Guia Local", "avatar": null },
+      { "quote": "Melhor clínica veterinária. O Dr. Daniel é incansável. Mesmo tendo mudado de morada, continuo a levar os meus cães à VetTop.", "name": "Carla O.", "role": "Avaliação Google", "avatar": null },
+      { "quote": "Mudei-me para Oeiras e precisava de um novo veterinário para os meus dois gatinhos. O Dr. Daniel fez muito mais do que uma simples vacinação — conquistou os meus gatos desde o primeiro contacto. Estou imensamente grata por toda a atenção.", "name": "Vanessa", "role": "Guia Local", "avatar": null },
+      { "quote": "Já vou com as minhas cadelinhas à VetTop há quase 8 anos e adoro! Obrigada ao Dr. Daniel por toda a sua atenção, sendo que é um excelente veterinário!", "name": "Paula O.", "role": "Avaliação Google", "avatar": null },
+      { "quote": "Super bom acolhimento. Consulta paciente, atenta e muito cuidadosa com o cão que está velhote e doente. Recomendo.", "name": "Carla A.", "role": "Guia Local", "avatar": null }
     ]
   },
   "googleReviews": {
@@ -112,9 +112,9 @@
     "emergency_phone": "+351 21 195 0873",
     "emergency_cta": "Ligar Emergência",
     "schedule": [
-      { "day": "Segunda – Sexta", "hours": "9:00 – 20:00" },
-      { "day": "Sábado", "hours": "9:00 – 14:00" },
-      { "day": "Domingos e Feriados", "hours": "Encerrado (Apenas Emergências)" }
+      { "day": "Segunda – Sexta", "hours": "9:30 – 13:00, 14:30 – 21:00" },
+      { "day": "Sábado", "hours": "9:30 – 13:00, 14:30 – 19:00" },
+      { "day": "Domingo", "hours": "Encerrado" }
     ]
   },
   "pricing": {
@@ -169,11 +169,11 @@
     "phone": "+351 21 195 0873",
     "email": "info@vettop.pt",
     "address": "R. de São Paulo 4A, 2780-037 Oeiras",
-    "hours": "Seg–Sex 9h–20h · Sáb 9h–14h",
-    "map_link": "https://maps.google.com/?q=VetTop+Oeiras",
+    "hours": "Seg–Sex 9:30–13h, 14:30–21h · Sáb 9:30–13h, 14:30–19h",
+    "map_link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0xd1ec91f1725efab:0x8bcb035af058303d",
     "map": {
       "address": "R. de São Paulo 4A\n2780-037 Oeiras",
-      "mapsEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.5!2d-9.31!3d38.69!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sVetTop!5e0!3m2!1spt!2spt!4v1",
+      "mapsEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.5!2d-9.31!3d38.69!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1ec91f1725efab%3A0x8bcb035af058303d!2sVetTop!5e0!3m2!1spt!2spt!4v1",
       "mapTitle": "Localização da Clínica VetTop"
     }
   },
@@ -194,7 +194,7 @@
     "success_title": "Consulta Solicitada!",
     "success_body": "Vamos confirmar a sua marcação por email ou telefone em breve.",
     "back_cta": "Marcar outra consulta",
-    "times": ["9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00", "17:30", "18:00", "18:30", "19:00", "19:30"],
+    "times": ["9:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00", "17:30", "18:00", "18:30", "19:00", "19:30", "20:00", "20:30"],
     "days": ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"],
     "months": ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"]
   },
@@ -207,7 +207,7 @@
     "brand": "VetTop",
     "tagline": "Cuidados veterinários compassivos em Oeiras desde 2005.",
     "address": "R. de São Paulo 4A, 2780-037 Oeiras",
-    "hours": "Seg–Sex 9h–20h · Sáb 9h–14h",
+    "hours": "Seg–Sex 9:30–13h, 14:30–21h · Sáb 9:30–13h, 14:30–19h",
     "phone": "+351 21 195 0873",
     "email": "info@vettop.pt",
     "copyright": "© 2026 VetTop - Clínica Veterinária. Todos os direitos reservados.",

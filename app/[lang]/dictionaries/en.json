@@ -66,7 +66,7 @@
     "title_line2": "TEAM",
     "subtitle": "Dedicated professionals who treat every pet like their own.",
     "members": [
-      { "name": "Dr. Maria Santos", "role": "Head Veterinarian", "specialization": "Internal Medicine & Surgery", "image": "/team/maria.jpg" },
+      { "name": "Dr. Daniel Carvalho", "role": "Head Veterinarian", "specialization": "Internal Medicine & Surgery", "image": "/team/daniel.jpg" },
       { "name": "Dr. João Ferreira", "role": "Veterinarian", "specialization": "Dermatology & Nutrition", "image": "/team/joao.jpg" },
       { "name": "Dr. Ana Costa", "role": "Veterinarian", "specialization": "Dental & Exotic Animals", "image": "/team/ana.jpg" },
       { "name": "Sofia Oliveira", "role": "Vet Nurse", "specialization": "Patient Care & Recovery", "image": "/team/sofia.jpg" }
@@ -87,12 +87,12 @@
     "title_line2": "SAY",
     "subtitle": "Real stories from the families who trust us with their pets.",
     "items": [
-      { "quote": "The team at VetTop saved our dog's life during an emergency. We'll never go anywhere else.", "name": "Ana M.", "role": "Oeiras", "avatar": null },
-      { "quote": "Dr. Santos is incredible. She explained everything patiently and our cat was in the best hands.", "name": "Pedro L.", "role": "Oeiras", "avatar": null },
-      { "quote": "Professional, caring, and always available. VetTop has been our vet for 8 years.", "name": "Mariana C.", "role": "Cascais", "avatar": null },
-      { "quote": "The grooming service is fantastic. Our golden retriever always comes out looking like a show dog!", "name": "Ricardo S.", "role": "Oeiras", "avatar": null },
-      { "quote": "Fair prices and excellent care. They truly love animals here.", "name": "Sofia T.", "role": "Carcavelos", "avatar": null },
-      { "quote": "Best vet clinic in the area. Clean facility, modern equipment, and a team that genuinely cares.", "name": "Miguel F.", "role": "Oeiras", "avatar": null }
+      { "quote": "We were always impressed by the professionalism and dedication at VetTop. If we hadn't moved to another town, we would still be bringing our difficult dog to this clinic. Highly recommended!", "name": "Philipp B.", "role": "Google Review", "avatar": null },
+      { "quote": "When I brought Lily to Vet Top, they immediately understood the situation and knew exactly what to do. Within just a few days, Lily started feeling better, and now she's completely recovered. I am beyond grateful!", "name": "Roberta D.", "role": "Local Guide", "avatar": null },
+      { "quote": "Dr. Daniel is tireless. Even though I've moved, I still bring my dogs to VetTop. Best veterinary clinic.", "name": "Carla O.", "role": "Google Review", "avatar": null },
+      { "quote": "I moved to Oeiras and needed a new vet for my two kittens. Dr. Daniel did much more than just a vaccination — he won over my cats from the first contact. I am immensely grateful for all the affection and attention.", "name": "Vanessa", "role": "Local Guide", "avatar": null },
+      { "quote": "I've been bringing my dogs to VetTop for almost 8 years and I love it! Thank you Dr. Daniel for all your attention — an excellent veterinarian!", "name": "Paula O.", "role": "Google Review", "avatar": null },
+      { "quote": "Great welcome. Patient, attentive, and very careful consultation with our elderly and sick dog. I recommend.", "name": "Carla A.", "role": "Local Guide", "avatar": null }
     ]
   },
   "googleReviews": {
@@ -112,9 +112,9 @@
     "emergency_phone": "+351 21 195 0873",
     "emergency_cta": "Call Emergency",
     "schedule": [
-      { "day": "Monday – Friday", "hours": "9:00 – 20:00" },
-      { "day": "Saturday", "hours": "9:00 – 14:00" },
-      { "day": "Sunday & Holidays", "hours": "Closed (Emergency Only)" }
+      { "day": "Monday – Friday", "hours": "9:30 – 13:00, 14:30 – 21:00" },
+      { "day": "Saturday", "hours": "9:30 – 13:00, 14:30 – 19:00" },
+      { "day": "Sunday", "hours": "Closed" }
     ]
   },
   "pricing": {
@@ -169,11 +169,11 @@
     "phone": "+351 21 195 0873",
     "email": "info@vettop.pt",
     "address": "R. de São Paulo 4A, 2780-037 Oeiras",
-    "hours": "Mon–Fri 9am–8pm · Sat 9am–2pm",
-    "map_link": "https://maps.google.com/?q=VetTop+Oeiras",
+    "hours": "Mon–Fri 9:30am–1pm, 2:30–9pm · Sat 9:30am–1pm, 2:30–7pm",
+    "map_link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0xd1ec91f1725efab:0x8bcb035af058303d",
     "map": {
       "address": "R. de São Paulo 4A\n2780-037 Oeiras",
-      "mapsEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.5!2d-9.31!3d38.69!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sVetTop!5e0!3m2!1spt!2spt!4v1",
+      "mapsEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.5!2d-9.31!3d38.69!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1ec91f1725efab%3A0x8bcb035af058303d!2sVetTop!5e0!3m2!1spt!2spt!4v1",
       "mapTitle": "VetTop Clinic location"
     }
   },
@@ -194,7 +194,7 @@
     "success_title": "Appointment Requested!",
     "success_body": "We'll confirm your booking via email or phone shortly.",
     "back_cta": "Book another appointment",
-    "times": ["9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00", "17:30", "18:00", "18:30", "19:00", "19:30"],
+    "times": ["9:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00", "17:30", "18:00", "18:30", "19:00", "19:30", "20:00", "20:30"],
     "days": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
     "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
   },
@@ -207,7 +207,7 @@
     "brand": "VetTop",
     "tagline": "Compassionate veterinary care in Oeiras since 2005.",
     "address": "R. de São Paulo 4A, 2780-037 Oeiras",
-    "hours": "Mon–Fri 9am–8pm · Sat 9am–2pm",
+    "hours": "Mon–Fri 9:30am–1pm, 2:30–9pm · Sat 9:30am–1pm, 2:30–7pm",
     "phone": "+351 21 195 0873",
     "email": "info@vettop.pt",
     "copyright": "© 2026 VetTop - Clínica Veterinária. All rights reserved.",
