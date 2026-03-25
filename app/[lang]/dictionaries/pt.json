@@ -1,10 +1,229 @@
 {
   "metadata": {
-    "title": "Meu Site",
-    "description": "Bem-vindo ao meu site."
+    "title": "VetTop - Clínica Veterinária | Oeiras",
+    "description": "Cuidados veterinários de confiança em Oeiras. Consultas, cirurgia, vacinação, tosquia e serviço de emergência 24/7."
   },
-  "home": {
-    "title": "Bem-vindo",
-    "description": "Este e o ponto de partida do seu projeto. Edite esta pagina para comecar."
+  "navbar": {
+    "brand": "VetTop",
+    "cta": "Marcar Consulta",
+    "links": [
+      { "id": "about", "label": "Sobre" },
+      { "id": "services", "label": "Serviços" },
+      { "id": "team", "label": "Equipa" },
+      { "id": "testimonials", "label": "Opiniões" },
+      { "id": "hours", "label": "Horário" },
+      { "id": "pricing", "label": "Planos" },
+      { "id": "faq", "label": "FAQ" },
+      { "id": "contact", "label": "Contacto" }
+    ]
+  },
+  "hero": {
+    "title_line1": "MÃOS QUE",
+    "title_line2": "CUIDAM",
+    "tagline": "A saúde do seu animal, o trabalho da nossa vida. Cuidados veterinários de confiança em Oeiras desde 2005.",
+    "cta": "Marcar Consulta",
+    "cta_secondary": "Os Nossos Serviços",
+    "stats": [
+      { "value": "4.8★", "label": "Avaliação Google" },
+      { "value": "262+", "label": "Avaliações" },
+      { "value": "18+", "label": "Anos de Cuidados" }
+    ]
+  },
+  "statsCounters": {
+    "title_line1": "A CONFIANÇA DE",
+    "title_line2": "FAMÍLIAS COM ANIMAIS",
+    "items": [
+      { "label": "Pacientes Tratados", "target": 15000, "suffix": "+" },
+      { "label": "Avaliações 5 Estrelas", "target": 262, "suffix": "+" },
+      { "label": "Anos de Experiência", "target": 18, "suffix": "+" },
+      { "label": "Veterinários na Equipa", "target": 6, "suffix": "" }
+    ]
+  },
+  "about": {
+    "title_line1": "A SEGUNDA CASA",
+    "title_line2": "DO SEU ANIMAL",
+    "body": "A VetTop foi fundada com uma crença simples: todos os animais merecem cuidados compassivos e especializados.\n\nA nossa clínica de última geração em Oeiras está equipada com ferramentas de diagnóstico modernas, um bloco operatório e uma equipa dedicada que trata cada animal como família. Desde consultas de rotina até cirurgias complexas, estamos aqui em todas as fases da vida do seu animal.",
+    "stats": [
+      { "value": "2005", "label": "Fundada" },
+      { "value": "15K+", "label": "Pacientes" },
+      { "value": "4.8★", "label": "Avaliação" }
+    ]
+  },
+  "services": {
+    "title_line1": "O QUE",
+    "title_line2": "OFERECEMOS",
+    "items": [
+      { "icon": "🩺", "title": "Consultas Gerais", "description": "Exames de saúde completos, diagnósticos e planos de tratamento personalizados para o seu animal.", "image": "/services/consultations.jpg" },
+      { "icon": "🔬", "title": "Cirurgia", "description": "Desde esterilização de rotina a procedimentos complexos, realizados com precisão e cuidado.", "image": "/services/surgery.jpg" },
+      { "icon": "💉", "title": "Vacinação", "description": "Mantenha o seu animal protegido com calendários de vacinação atualizados e cuidados preventivos.", "image": "/services/vaccinations.jpg" },
+      { "icon": "🦷", "title": "Cuidados Dentários", "description": "Limpezas dentárias profissionais, extrações e avaliações de saúde oral.", "image": "/services/dental.jpg" },
+      { "icon": "✂️", "title": "Tosquia e Banho", "description": "Banhos, cortes de pelo, corte de unhas e limpeza de ouvidos para o seu animal ficar sempre impecável.", "image": "/services/grooming.jpg" },
+      { "icon": "🚨", "title": "Cuidados de Emergência", "description": "Serviço de emergência 24/7 para situações urgentes. Estamos aqui quando mais precisa.", "image": "/services/emergency.jpg" }
+    ]
+  },
+  "team": {
+    "title_line1": "CONHEÇA A",
+    "title_line2": "EQUIPA",
+    "subtitle": "Profissionais dedicados que tratam cada animal como se fosse seu.",
+    "members": [
+      { "name": "Dr. Maria Santos", "role": "Veterinária Chefe", "specialization": "Medicina Interna e Cirurgia", "image": "/team/maria.jpg" },
+      { "name": "Dr. João Ferreira", "role": "Veterinário", "specialization": "Dermatologia e Nutrição", "image": "/team/joao.jpg" },
+      { "name": "Dr. Ana Costa", "role": "Veterinária", "specialization": "Dentária e Animais Exóticos", "image": "/team/ana.jpg" },
+      { "name": "Sofia Oliveira", "role": "Enfermeira Veterinária", "specialization": "Cuidados ao Paciente e Recuperação", "image": "/team/sofia.jpg" }
+    ]
+  },
+  "galleryStrip": {
+    "images": [
+      { "src": "/gallery/1.jpg", "alt": "Cão a ser examinado pelo veterinário" },
+      { "src": "/gallery/2.jpg", "alt": "Gato a descansar após tratamento" },
+      { "src": "/gallery/3.jpg", "alt": "Receção da clínica VetTop" },
+      { "src": "/gallery/4.jpg", "alt": "Equipa veterinária a trabalhar" },
+      { "src": "/gallery/5.jpg", "alt": "Cão feliz após tosquia" },
+      { "src": "/gallery/6.jpg", "alt": "Equipamento veterinário moderno" }
+    ]
+  },
+  "reviews": {
+    "title_line1": "O QUE DIZEM",
+    "title_line2": "OS DONOS",
+    "subtitle": "Histórias reais das famílias que nos confiam os seus animais.",
+    "items": [
+      { "quote": "A equipa da VetTop salvou a vida do nosso cão numa emergência. Nunca mais vamos a outro sítio.", "name": "Ana M.", "role": "Oeiras", "avatar": null },
+      { "quote": "A Dra. Santos é incrível. Explicou tudo com paciência e o nosso gato esteve nas melhores mãos.", "name": "Pedro L.", "role": "Oeiras", "avatar": null },
+      { "quote": "Profissionais, atenciosos e sempre disponíveis. A VetTop é o nosso veterinário há 8 anos.", "name": "Mariana C.", "role": "Cascais", "avatar": null },
+      { "quote": "O serviço de tosquia é fantástico. O nosso golden retriever sai sempre como um cão de exposição!", "name": "Ricardo S.", "role": "Oeiras", "avatar": null },
+      { "quote": "Preços justos e cuidados excelentes. Aqui adoram verdadeiramente os animais.", "name": "Sofia T.", "role": "Carcavelos", "avatar": null },
+      { "quote": "A melhor clínica veterinária da zona. Instalações limpas, equipamento moderno e uma equipa que se preocupa genuinamente.", "name": "Miguel F.", "role": "Oeiras", "avatar": null }
+    ]
+  },
+  "googleReviews": {
+    "title_line1": "GOSTA DO SEU VET?",
+    "title_line2": "ESPALHE A PALAVRA.",
+    "subtitle": "A sua avaliação ajuda outros donos de animais a encontrar cuidados de confiança para a sua família.",
+    "cta": "Deixar Avaliação no Google",
+    "rating_label": "Avaliado no Google"
+  },
+  "hoursEmergency": {
+    "title_line1": "SEMPRE",
+    "title_line2": "AQUI PARA SI",
+    "subtitle": "Horário regular e disponibilidade de emergência — o seu animal nunca fica sem cuidados.",
+    "hours_label": "Horário de Funcionamento",
+    "emergency_label": "Emergência",
+    "emergency_text": "Linha de emergência 24/7 disponível para pacientes existentes.",
+    "emergency_phone": "+351 21 195 0873",
+    "emergency_cta": "Ligar Emergência",
+    "schedule": [
+      { "day": "Segunda – Sexta", "hours": "9:00 – 20:00" },
+      { "day": "Sábado", "hours": "9:00 – 14:00" },
+      { "day": "Domingos e Feriados", "hours": "Encerrado (Apenas Emergências)" }
+    ]
+  },
+  "pricing": {
+    "title_line1": "PLANOS DE",
+    "title_line2": "CUIDADOS",
+    "subtitle": "Pacotes de cuidados preventivos para manter o seu animal saudável durante todo o ano.",
+    "popular_label": "Mais Popular",
+    "cta": "Marcar Agora",
+    "disclaimer": "Os preços são indicativos. O custo final depende do tamanho do animal e das necessidades específicas.",
+    "plans": [
+      {
+        "name": "Consulta Básica",
+        "price": "€45",
+        "period": "por visita",
+        "popular": false,
+        "features": ["Exame de saúde geral", "Verificação de peso e sinais vitais", "Recomendação de desparasitação", "Revisão de vacinação"]
+      },
+      {
+        "name": "Plano Bem-Estar",
+        "price": "€25",
+        "period": "por mês",
+        "popular": true,
+        "features": ["2 consultas anuais", "Todas as vacinas essenciais", "Limpeza dentária", "10% desconto em cirurgias", "Agendamento prioritário"]
+      },
+      {
+        "name": "Cuidados Sénior",
+        "price": "€35",
+        "period": "por mês",
+        "popular": false,
+        "features": ["Consultas trimestrais", "Análises de sangue e diagnósticos", "Todas as vacinas essenciais", "Limpeza dentária", "15% desconto em todos os serviços", "Acesso prioritário a emergências"]
+      }
+    ]
+  },
+  "faq": {
+    "title_line1": "PERGUNTAS",
+    "title_line2": "FREQUENTES",
+    "items": [
+      { "question": "Preciso de marcação?", "answer": "Recomendamos marcar com antecedência, mas aceitamos visitas sem marcação durante o horário normal, conforme disponibilidade." },
+      { "question": "Que animais tratam?", "answer": "Tratamos principalmente cães e gatos, mas também atendemos coelhos, hamsters e outros pequenos animais. Contacte-nos para espécies exóticas." },
+      { "question": "Têm serviço de emergência?", "answer": "Sim. Os pacientes existentes podem contactar a nossa linha de emergência 24/7. Novos pacientes são bem-vindos durante o nosso horário alargado de emergência." },
+      { "question": "Oferecem planos de pagamento?", "answer": "Sim, para cirurgias e tratamentos maiores oferecemos opções de pagamento flexíveis. Pergunte na receção para mais detalhes." },
+      { "question": "Com que frequência o meu animal deve fazer uma consulta?", "answer": "Recomendamos consultas anuais para animais adultos e semestrais para seniores (7+ anos). Cachorros e gatinhos precisam de visitas mais frequentes." },
+      { "question": "Aceitam seguros de animais?", "answer": "Trabalhamos com todas as principais seguradoras de animais em Portugal e podemos fornecer faturas detalhadas para pedidos de reembolso." }
+    ]
+  },
+  "contact": {
+    "title_line1": "VISITE A",
+    "title_line2": "NOSSA CLÍNICA",
+    "body": "Questões sobre a saúde do seu animal? Pronto para marcar? Adoraríamos ouvir de si.",
+    "book_cta": "Marcar Consulta",
+    "call_cta": "Ligar",
+    "phone": "+351 21 195 0873",
+    "email": "info@vettop.pt",
+    "address": "R. de São Paulo 4A, 2780-037 Oeiras",
+    "hours": "Seg–Sex 9h–20h · Sáb 9h–14h",
+    "map_link": "https://maps.google.com/?q=VetTop+Oeiras",
+    "map": {
+      "address": "R. de São Paulo 4A\n2780-037 Oeiras",
+      "mapsEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.5!2d-9.31!3d38.69!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sVetTop!5e0!3m2!1spt!2spt!4v1",
+      "mapTitle": "Localização da Clínica VetTop"
+    }
+  },
+  "appointment": {
+    "title": "Marcar uma Consulta",
+    "subtitle": "Escolha um horário que lhe convenha — confirmamos em poucas horas.",
+    "name_label": "O seu nome",
+    "contact_label": "Email ou número de telefone",
+    "pet_name_label": "Nome do animal",
+    "pet_type_label": "Tipo de animal",
+    "pet_types": ["Cão", "Gato", "Coelho", "Pássaro", "Outro"],
+    "service_label": "Serviço pretendido",
+    "service_options": ["Consulta Geral", "Vacinação", "Consulta de Cirurgia", "Cuidados Dentários", "Tosquia e Banho", "Emergência", "Outro"],
+    "note_label": "Notas adicionais (opcional)",
+    "date_label": "Escolha uma data",
+    "time_label": "Horário preferido",
+    "confirm_cta": "Confirmar Consulta",
+    "success_title": "Consulta Solicitada!",
+    "success_body": "Vamos confirmar a sua marcação por email ou telefone em breve.",
+    "back_cta": "Marcar outra consulta",
+    "times": ["9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00", "17:30", "18:00", "18:30", "19:00", "19:30"],
+    "days": ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"],
+    "months": ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"]
+  },
+  "appointmentBar": {
+    "cta_book": "Marcar Consulta",
+    "cta_call": "Ligar",
+    "phone": "+351 21 195 0873"
+  },
+  "footer": {
+    "brand": "VetTop",
+    "tagline": "Cuidados veterinários compassivos em Oeiras desde 2005.",
+    "address": "R. de São Paulo 4A, 2780-037 Oeiras",
+    "hours": "Seg–Sex 9h–20h · Sáb 9h–14h",
+    "phone": "+351 21 195 0873",
+    "email": "info@vettop.pt",
+    "copyright": "© 2026 VetTop - Clínica Veterinária. Todos os direitos reservados.",
+    "book_cta": "Marcar Consulta",
+    "explore_label": "Explorar",
+    "hours_label": "Horário",
+    "find_us_label": "Encontre-nos",
+    "made_in": "Feito em Portugal",
+    "nav_links": [
+      { "id": "about", "label": "Sobre" },
+      { "id": "services", "label": "Serviços" },
+      { "id": "team", "label": "Equipa" },
+      { "id": "testimonials", "label": "Opiniões" },
+      { "id": "pricing", "label": "Planos" },
+      { "id": "faq", "label": "FAQ" },
+      { "id": "contact", "label": "Contacto" }
+    ]
   }
 }

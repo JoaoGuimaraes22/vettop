@@ -1,10 +1,229 @@
 {
   "metadata": {
-    "title": "My Site",
-    "description": "Welcome to my site."
+    "title": "VetTop - Veterinary Clinic | Oeiras",
+    "description": "Trusted veterinary care in Oeiras. Consultations, surgery, vaccinations, grooming, and 24/7 emergency service."
   },
-  "home": {
-    "title": "Welcome",
-    "description": "This is the starting point of your project. Edit this page to get started."
+  "navbar": {
+    "brand": "VetTop",
+    "cta": "Book Appointment",
+    "links": [
+      { "id": "about", "label": "About" },
+      { "id": "services", "label": "Services" },
+      { "id": "team", "label": "Our Team" },
+      { "id": "testimonials", "label": "Reviews" },
+      { "id": "pricing", "label": "Plans" },
+      { "id": "hours", "label": "Hours" },
+      { "id": "faq", "label": "FAQ" },
+      { "id": "contact", "label": "Contact" }
+    ]
+  },
+  "hero": {
+    "title_line1": "CARING",
+    "title_line2": "HANDS",
+    "tagline": "Your pet's health, our life's work. Trusted veterinary care in Oeiras since 2005.",
+    "cta": "Book Appointment",
+    "cta_secondary": "Our Services",
+    "stats": [
+      { "value": "4.8★", "label": "Google Rating" },
+      { "value": "262+", "label": "Reviews" },
+      { "value": "18+", "label": "Years of Care" }
+    ]
+  },
+  "statsCounters": {
+    "title_line1": "TRUSTED BY",
+    "title_line2": "PET FAMILIES",
+    "items": [
+      { "label": "Patients Treated", "target": 15000, "suffix": "+" },
+      { "label": "5-Star Reviews", "target": 262, "suffix": "+" },
+      { "label": "Years Experience", "target": 18, "suffix": "+" },
+      { "label": "Vets on Staff", "target": 6, "suffix": "" }
+    ]
+  },
+  "about": {
+    "title_line1": "YOUR PET'S",
+    "title_line2": "SECOND HOME",
+    "body": "VetTop was founded with a simple belief: every pet deserves compassionate, expert care.\n\nOur state-of-the-art clinic in Oeiras is equipped with modern diagnostic tools, a surgical suite, and a dedicated team that treats every animal like family. From routine checkups to complex surgeries, we're here for every stage of your pet's life.",
+    "stats": [
+      { "value": "2005", "label": "Founded" },
+      { "value": "15K+", "label": "Patients" },
+      { "value": "4.8★", "label": "Rating" }
+    ]
+  },
+  "services": {
+    "title_line1": "WHAT WE",
+    "title_line2": "OFFER",
+    "items": [
+      { "icon": "🩺", "title": "General Consultations", "description": "Comprehensive health exams, diagnostics, and personalized treatment plans for your pet.", "image": "/services/consultations.jpg" },
+      { "icon": "🔬", "title": "Surgery", "description": "From routine spay/neuter to complex procedures, performed with precision and care.", "image": "/services/surgery.jpg" },
+      { "icon": "💉", "title": "Vaccinations", "description": "Keep your pet protected with up-to-date vaccination schedules and preventive care.", "image": "/services/vaccinations.jpg" },
+      { "icon": "🦷", "title": "Dental Care", "description": "Professional dental cleanings, extractions, and oral health assessments.", "image": "/services/dental.jpg" },
+      { "icon": "✂️", "title": "Grooming", "description": "Baths, haircuts, nail trimming, and ear cleaning to keep your pet looking and feeling great.", "image": "/services/grooming.jpg" },
+      { "icon": "🚨", "title": "Emergency Care", "description": "24/7 emergency services for urgent situations. We're here when you need us most.", "image": "/services/emergency.jpg" }
+    ]
+  },
+  "team": {
+    "title_line1": "MEET THE",
+    "title_line2": "TEAM",
+    "subtitle": "Dedicated professionals who treat every pet like their own.",
+    "members": [
+      { "name": "Dr. Maria Santos", "role": "Head Veterinarian", "specialization": "Internal Medicine & Surgery", "image": "/team/maria.jpg" },
+      { "name": "Dr. João Ferreira", "role": "Veterinarian", "specialization": "Dermatology & Nutrition", "image": "/team/joao.jpg" },
+      { "name": "Dr. Ana Costa", "role": "Veterinarian", "specialization": "Dental & Exotic Animals", "image": "/team/ana.jpg" },
+      { "name": "Sofia Oliveira", "role": "Vet Nurse", "specialization": "Patient Care & Recovery", "image": "/team/sofia.jpg" }
+    ]
+  },
+  "galleryStrip": {
+    "images": [
+      { "src": "/gallery/1.jpg", "alt": "Dog being examined by veterinarian" },
+      { "src": "/gallery/2.jpg", "alt": "Cat resting after treatment" },
+      { "src": "/gallery/3.jpg", "alt": "VetTop clinic reception area" },
+      { "src": "/gallery/4.jpg", "alt": "Veterinary team at work" },
+      { "src": "/gallery/5.jpg", "alt": "Happy dog after grooming" },
+      { "src": "/gallery/6.jpg", "alt": "Modern veterinary equipment" }
+    ]
+  },
+  "reviews": {
+    "title_line1": "WHAT PET OWNERS",
+    "title_line2": "SAY",
+    "subtitle": "Real stories from the families who trust us with their pets.",
+    "items": [
+      { "quote": "The team at VetTop saved our dog's life during an emergency. We'll never go anywhere else.", "name": "Ana M.", "role": "Oeiras", "avatar": null },
+      { "quote": "Dr. Santos is incredible. She explained everything patiently and our cat was in the best hands.", "name": "Pedro L.", "role": "Oeiras", "avatar": null },
+      { "quote": "Professional, caring, and always available. VetTop has been our vet for 8 years.", "name": "Mariana C.", "role": "Cascais", "avatar": null },
+      { "quote": "The grooming service is fantastic. Our golden retriever always comes out looking like a show dog!", "name": "Ricardo S.", "role": "Oeiras", "avatar": null },
+      { "quote": "Fair prices and excellent care. They truly love animals here.", "name": "Sofia T.", "role": "Carcavelos", "avatar": null },
+      { "quote": "Best vet clinic in the area. Clean facility, modern equipment, and a team that genuinely cares.", "name": "Miguel F.", "role": "Oeiras", "avatar": null }
+    ]
+  },
+  "googleReviews": {
+    "title_line1": "LOVE YOUR VET?",
+    "title_line2": "SPREAD THE WORD.",
+    "subtitle": "Your review helps other pet owners find trusted care for their family.",
+    "cta": "Leave a Google Review",
+    "rating_label": "Rated on Google"
+  },
+  "hoursEmergency": {
+    "title_line1": "ALWAYS",
+    "title_line2": "HERE FOR YOU",
+    "subtitle": "Regular hours and emergency availability — your pet is never without care.",
+    "hours_label": "Opening Hours",
+    "emergency_label": "Emergency",
+    "emergency_text": "24/7 emergency line available for existing patients.",
+    "emergency_phone": "+351 21 195 0873",
+    "emergency_cta": "Call Emergency",
+    "schedule": [
+      { "day": "Monday – Friday", "hours": "9:00 – 20:00" },
+      { "day": "Saturday", "hours": "9:00 – 14:00" },
+      { "day": "Sunday & Holidays", "hours": "Closed (Emergency Only)" }
+    ]
+  },
+  "pricing": {
+    "title_line1": "CARE",
+    "title_line2": "PLANS",
+    "subtitle": "Preventive care packages to keep your pet healthy year-round.",
+    "popular_label": "Most Popular",
+    "cta": "Book Now",
+    "disclaimer": "Prices are indicative. Final cost depends on pet size and specific needs.",
+    "plans": [
+      {
+        "name": "Basic Checkup",
+        "price": "€45",
+        "period": "per visit",
+        "popular": false,
+        "features": ["General health exam", "Weight & vitals check", "Deworming recommendation", "Vaccination review"]
+      },
+      {
+        "name": "Wellness Plan",
+        "price": "€25",
+        "period": "per month",
+        "popular": true,
+        "features": ["2 annual checkups", "All core vaccinations", "Dental cleaning", "10% off surgeries", "Priority scheduling"]
+      },
+      {
+        "name": "Senior Care",
+        "price": "€35",
+        "period": "per month",
+        "popular": false,
+        "features": ["Quarterly checkups", "Blood work & diagnostics", "All core vaccinations", "Dental cleaning", "15% off all services", "Priority emergency access"]
+      }
+    ]
+  },
+  "faq": {
+    "title_line1": "COMMON",
+    "title_line2": "QUESTIONS",
+    "items": [
+      { "question": "Do I need an appointment?", "answer": "We recommend booking ahead, but walk-ins are welcome during regular hours based on availability." },
+      { "question": "What animals do you treat?", "answer": "We primarily treat dogs and cats, but also see rabbits, hamsters, and other small animals. Contact us for exotic species." },
+      { "question": "Is emergency care available?", "answer": "Yes. Existing patients can reach our 24/7 emergency line. New patients are welcome during our extended emergency hours." },
+      { "question": "Do you offer payment plans?", "answer": "Yes, for surgeries and larger treatments we offer flexible payment options. Ask at reception for details." },
+      { "question": "How often should my pet have a checkup?", "answer": "We recommend annual checkups for adult pets and twice yearly for seniors (7+ years). Puppies and kittens need more frequent visits." },
+      { "question": "Do you provide pet insurance support?", "answer": "We work with all major pet insurance providers in Portugal and can provide detailed invoices for reimbursement claims." }
+    ]
+  },
+  "contact": {
+    "title_line1": "VISIT",
+    "title_line2": "OUR CLINIC",
+    "body": "Questions about your pet's health? Ready to book? We'd love to hear from you.",
+    "book_cta": "Book Appointment",
+    "call_cta": "Call Us",
+    "phone": "+351 21 195 0873",
+    "email": "info@vettop.pt",
+    "address": "R. de São Paulo 4A, 2780-037 Oeiras",
+    "hours": "Mon–Fri 9am–8pm · Sat 9am–2pm",
+    "map_link": "https://maps.google.com/?q=VetTop+Oeiras",
+    "map": {
+      "address": "R. de São Paulo 4A\n2780-037 Oeiras",
+      "mapsEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.5!2d-9.31!3d38.69!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sVetTop!5e0!3m2!1spt!2spt!4v1",
+      "mapTitle": "VetTop Clinic location"
+    }
+  },
+  "appointment": {
+    "title": "Book an Appointment",
+    "subtitle": "Choose a time that works — we'll confirm within a few hours.",
+    "name_label": "Your name",
+    "contact_label": "Email or phone number",
+    "pet_name_label": "Pet's name",
+    "pet_type_label": "Type of pet",
+    "pet_types": ["Dog", "Cat", "Rabbit", "Bird", "Other"],
+    "service_label": "Service needed",
+    "service_options": ["General Checkup", "Vaccination", "Surgery Consultation", "Dental Care", "Grooming", "Emergency", "Other"],
+    "note_label": "Additional notes (optional)",
+    "date_label": "Pick a date",
+    "time_label": "Preferred time",
+    "confirm_cta": "Confirm Appointment",
+    "success_title": "Appointment Requested!",
+    "success_body": "We'll confirm your booking via email or phone shortly.",
+    "back_cta": "Book another appointment",
+    "times": ["9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00", "17:30", "18:00", "18:30", "19:00", "19:30"],
+    "days": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+    "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+  },
+  "appointmentBar": {
+    "cta_book": "Book Appointment",
+    "cta_call": "Call Us",
+    "phone": "+351 21 195 0873"
+  },
+  "footer": {
+    "brand": "VetTop",
+    "tagline": "Compassionate veterinary care in Oeiras since 2005.",
+    "address": "R. de São Paulo 4A, 2780-037 Oeiras",
+    "hours": "Mon–Fri 9am–8pm · Sat 9am–2pm",
+    "phone": "+351 21 195 0873",
+    "email": "info@vettop.pt",
+    "copyright": "© 2026 VetTop - Clínica Veterinária. All rights reserved.",
+    "book_cta": "Book Appointment",
+    "explore_label": "Explore",
+    "hours_label": "Hours",
+    "find_us_label": "Find Us",
+    "made_in": "Made in Portugal",
+    "nav_links": [
+      { "id": "about", "label": "About" },
+      { "id": "services", "label": "Services" },
+      { "id": "team", "label": "Team" },
+      { "id": "testimonials", "label": "Reviews" },
+      { "id": "pricing", "label": "Plans" },
+      { "id": "faq", "label": "FAQ" },
+      { "id": "contact", "label": "Contact" }
+    ]
   }
 }

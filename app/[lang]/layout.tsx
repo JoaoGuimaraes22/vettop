@@ -1,9 +1,10 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
-import { i18n } from "@/i18n-config";
 import { getDictionary, hasLocale } from "./dictionaries";
 import { notFound } from "next/navigation";
+import { i18n } from "@/i18n-config";
+import { MotionConfig } from "motion/react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,6 +15,10 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+
+export const viewport: Viewport = { width: "device-width", initialScale: 1 };
 
 export async function generateStaticParams() {
   return i18n.locales.map((lang) => ({ lang }));
@@ -27,10 +32,32 @@ export async function generateMetadata({
   if (!hasLocale(lang)) return {};
 
   const dict = await getDictionary(lang);
+  const title = dict.metadata.title;
+  const description = dict.metadata.description;
+  const ogLocales: Record<string, string> = { pt: "pt_PT", en: "en_US" };
 
   return {
-    title: dict.metadata.title,
-    description: dict.metadata.description,
+    title,
+    description,
+    alternates: {
+      canonical: `${SITE_URL}/${lang}`,
+      languages: Object.fromEntries(i18n.locales.map((l) => [l, `${SITE_URL}/${l}`])),
+    },
+    openGraph: {
+      title,
+      description,
+      url: `${SITE_URL}/${lang}`,
+      siteName: dict.navbar.brand,
+      images: [{ url: `${SITE_URL}/og-image.png`, width: 1200, height: 630 }],
+      locale: ogLocales[lang] ?? "en_US",
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [`${SITE_URL}/og-image.png`],
+    },
   };
 }
 
@@ -42,12 +69,45 @@ export default async function RootLayout({
 
   if (!hasLocale(lang)) notFound();
 
+  const dict = await getDictionary(lang);
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": ["LocalBusiness", "VeterinaryCare"],
+    name: dict.navbar.brand,
+    description: dict.metadata.description,
+    url: `${SITE_URL}/${lang}`,
+    email: dict.contact.email,
+    telephone: dict.contact.phone,
+    image: `${SITE_URL}/og-image.png`,
+    priceRange: "€€",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: dict.contact.address,
+      addressCountry: "PT",
+    },
+  };
+
   return (
     <html
       lang={lang}
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <MotionConfig reducedMotion="user">
+          <a
+            href="#about"
+            className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:rounded-lg focus:bg-teal-600 focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-white"
+          >
+            Skip to content
+          </a>
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          />
+          {children}
+        </MotionConfig>
+      </body>
     </html>
   );
 }
