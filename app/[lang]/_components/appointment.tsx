@@ -63,6 +63,7 @@ export default function Appointment({ dict }: { dict: AppointmentDict }) {
     setPetName("");
     setNote("");
     document.body.style.overflow = "";
+    window.dispatchEvent(new Event("close-appointment"));
   }, []);
 
   useEffect(() => {

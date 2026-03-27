@@ -9,15 +9,26 @@ interface AppointmentBarDict {
 }
 
 export default function AppointmentBar({ dict }: { dict: AppointmentBarDict }) {
-  const [visible, setVisible] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const [modalOpen, setModalOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => {
-      setVisible(window.scrollY > window.innerHeight * 0.8);
+      setScrolled(window.scrollY > window.innerHeight * 0.8);
     };
+    const onOpen = () => setModalOpen(true);
+    const onClose = () => setModalOpen(false);
     window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
+    window.addEventListener("open-appointment", onOpen);
+    window.addEventListener("close-appointment", onClose);
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("open-appointment", onOpen);
+      window.removeEventListener("close-appointment", onClose);
+    };
   }, []);
+
+  const visible = scrolled && !modalOpen;
 
   const openAppointment = () => {
     window.dispatchEvent(new CustomEvent("open-appointment"));
@@ -29,16 +40,16 @@ export default function AppointmentBar({ dict }: { dict: AppointmentBarDict }) {
         visible ? "translate-y-0" : "translate-y-24"
       }`}
     >
-      <div className="flex gap-2 rounded-2xl bg-zinc-900/95 p-2 shadow-2xl backdrop-blur-sm">
+      <div className="flex gap-1.5 rounded-xl bg-zinc-900/95 p-1.5 shadow-2xl backdrop-blur-sm">
         <button
           onClick={openAppointment}
-          className="flex-1 cursor-pointer rounded-xl bg-teal-600 py-3 text-sm font-semibold text-white transition-colors hover:bg-teal-700"
+          className="flex-1 cursor-pointer rounded-lg bg-teal-600 py-2 text-xs font-semibold text-white transition-colors hover:bg-teal-700"
         >
           {dict.cta_book}
         </button>
         <a
           href={`tel:${dict.phone}`}
-          className="flex-1 cursor-pointer rounded-xl border border-zinc-700 py-3 text-center text-sm font-semibold text-zinc-100 transition-colors hover:bg-zinc-800"
+          className="flex-1 cursor-pointer rounded-lg border border-zinc-700 py-2 text-center text-xs font-semibold text-zinc-100 transition-colors hover:bg-zinc-800"
         >
           {dict.cta_call}
         </a>
