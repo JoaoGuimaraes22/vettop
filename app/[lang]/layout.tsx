@@ -48,7 +48,7 @@ export async function generateMetadata({
       description,
       url: `${SITE_URL}/${lang}`,
       siteName: dict.navbar.brand,
-      images: [{ url: `${SITE_URL}/og-image.png`, width: 1200, height: 630 }],
+      images: [{ url: `${SITE_URL}/og-image.jpg`, width: 1200, height: 630 }],
       locale: ogLocales[lang] ?? "en_US",
       type: "website",
     },
@@ -56,7 +56,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title,
       description,
-      images: [`${SITE_URL}/og-image.png`],
+      images: [`${SITE_URL}/og-image.jpg`],
     },
   };
 }
@@ -79,7 +79,7 @@ export default async function RootLayout({
     url: `${SITE_URL}/${lang}`,
     email: dict.contact.email,
     telephone: dict.contact.phone,
-    image: `${SITE_URL}/og-image.png`,
+    image: `${SITE_URL}/og-image.jpg`,
     priceRange: "€€",
     address: {
       "@type": "PostalAddress",
