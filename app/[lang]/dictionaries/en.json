@@ -12,14 +12,38 @@
     "brand": "VetTop",
     "cta": "Book Appointment",
     "links": [
-      { "id": "about", "label": "About" },
-      { "id": "services", "label": "Services" },
-      { "id": "team", "label": "Our Team" },
-      { "id": "testimonials", "label": "Reviews" },
-      { "id": "pricing", "label": "Plans" },
-      { "id": "hours", "label": "Hours" },
-      { "id": "faq", "label": "FAQ" },
-      { "id": "contact", "label": "Contact" }
+      {
+        "id": "about",
+        "label": "About"
+      },
+      {
+        "id": "services",
+        "label": "Services"
+      },
+      {
+        "id": "team",
+        "label": "Our Team"
+      },
+      {
+        "id": "testimonials",
+        "label": "Reviews"
+      },
+      {
+        "id": "pricing",
+        "label": "Plans"
+      },
+      {
+        "id": "hours",
+        "label": "Hours"
+      },
+      {
+        "id": "faq",
+        "label": "FAQ"
+      },
+      {
+        "id": "contact",
+        "label": "Contact"
+      }
     ]
   },
   "hero": {
@@ -29,19 +53,44 @@
     "cta": "Book Appointment",
     "cta_secondary": "Our Services",
     "stats": [
-      { "value": "4.8★", "label": "Google Rating" },
-      { "value": "262+", "label": "Reviews" },
-      { "value": "18+", "label": "Years of Care" }
+      {
+        "value": "4.8★",
+        "label": "Google Rating"
+      },
+      {
+        "value": "262+",
+        "label": "Reviews"
+      },
+      {
+        "value": "18+",
+        "label": "Years of Care"
+      }
     ]
   },
   "statsCounters": {
     "title_line1": "TRUSTED BY",
     "title_line2": "PET FAMILIES",
     "items": [
-      { "label": "Patients Treated", "target": 15000, "suffix": "+" },
-      { "label": "5-Star Reviews", "target": 262, "suffix": "+" },
-      { "label": "Years Experience", "target": 18, "suffix": "+" },
-      { "label": "Vets on Staff", "target": 6, "suffix": "" }
+      {
+        "label": "Patients Treated",
+        "target": 15000,
+        "suffix": "+"
+      },
+      {
+        "label": "5-Star Reviews",
+        "target": 262,
+        "suffix": "+"
+      },
+      {
+        "label": "Years Experience",
+        "target": 18,
+        "suffix": "+"
+      },
+      {
+        "label": "Vets on Staff",
+        "target": 6,
+        "suffix": ""
+      }
     ]
   },
   "about": {
@@ -49,21 +98,60 @@
     "title_line2": "SECOND HOME",
     "body": "VetTop was founded with a simple belief: every pet deserves compassionate, expert care.\n\nOur state-of-the-art clinic in Oeiras is equipped with modern diagnostic tools, a surgical suite, and a dedicated team that treats every animal like family. From routine checkups to complex surgeries, we're here for every stage of your pet's life.",
     "stats": [
-      { "value": "2005", "label": "Founded" },
-      { "value": "15K+", "label": "Patients" },
-      { "value": "4.8★", "label": "Rating" }
+      {
+        "value": "2005",
+        "label": "Founded"
+      },
+      {
+        "value": "15K+",
+        "label": "Patients"
+      },
+      {
+        "value": "4.8★",
+        "label": "Rating"
+      }
     ]
   },
   "services": {
     "title_line1": "WHAT WE",
     "title_line2": "OFFER",
     "items": [
-      { "icon": "🩺", "title": "General Consultations", "description": "Comprehensive health exams, diagnostics, and personalized treatment plans for your pet.", "image": "/services/consultations.webp" },
-      { "icon": "🔬", "title": "Surgery", "description": "From routine spay/neuter to complex procedures, performed with precision and care.", "image": "/services/surgery.webp" },
-      { "icon": "💉", "title": "Vaccinations", "description": "Keep your pet protected with up-to-date vaccination schedules and preventive care.", "image": "/services/vaccinations.webp" },
-      { "icon": "🦷", "title": "Dental Care", "description": "Professional dental cleanings, extractions, and oral health assessments.", "image": "/services/dental.webp" },
-      { "icon": "✂️", "title": "Grooming", "description": "Baths, haircuts, nail trimming, and ear cleaning to keep your pet looking and feeling great.", "image": "/services/grooming.webp" },
-      { "icon": "🚨", "title": "Emergency Care", "description": "24/7 emergency services for urgent situations. We're here when you need us most.", "image": "/services/emergency.webp" }
+      {
+        "icon": "🩺",
+        "title": "General Consultations",
+        "description": "Comprehensive health exams, diagnostics, and personalized treatment plans for your pet.",
+        "image": "/services/consultations.webp"
+      },
+      {
+        "icon": "🔬",
+        "title": "Surgery",
+        "description": "From routine spay/neuter to complex procedures, performed with precision and care.",
+        "image": "/services/surgery.webp"
+      },
+      {
+        "icon": "💉",
+        "title": "Vaccinations",
+        "description": "Keep your pet protected with up-to-date vaccination schedules and preventive care.",
+        "image": "/services/vaccinations.webp"
+      },
+      {
+        "icon": "🦷",
+        "title": "Dental Care",
+        "description": "Professional dental cleanings, extractions, and oral health assessments.",
+        "image": "/services/dental.webp"
+      },
+      {
+        "icon": "✂️",
+        "title": "Grooming",
+        "description": "Baths, haircuts, nail trimming, and ear cleaning to keep your pet looking and feeling great.",
+        "image": "/services/grooming.webp"
+      },
+      {
+        "icon": "🚨",
+        "title": "Emergency Care",
+        "description": "24/7 emergency services for urgent situations. We're here when you need us most.",
+        "image": "/services/emergency.webp"
+      }
     ]
   },
   "team": {
@@ -71,20 +159,58 @@
     "title_line2": "TEAM",
     "subtitle": "Dedicated professionals who treat every pet like their own.",
     "members": [
-      { "name": "Dr. Daniel Carvalho", "role": "Head Veterinarian", "specialization": "Internal Medicine & Surgery", "image": "/team/daniel.webp" },
-      { "name": "Dr. João Ferreira", "role": "Veterinarian", "specialization": "Dermatology & Nutrition", "image": "/team/joao.webp" },
-      { "name": "Dr. Ana Costa", "role": "Veterinarian", "specialization": "Dental & Exotic Animals", "image": "/team/ana.webp" },
-      { "name": "Sofia Oliveira", "role": "Vet Nurse", "specialization": "Patient Care & Recovery", "image": "/team/sofia.webp" }
+      {
+        "name": "Dr. Daniel Carvalho",
+        "role": "Head Veterinarian",
+        "specialization": "Internal Medicine & Surgery",
+        "image": "/team/daniel.webp"
+      },
+      {
+        "name": "Dr. João Ferreira",
+        "role": "Veterinarian",
+        "specialization": "Dermatology & Nutrition",
+        "image": "/team/joao.webp"
+      },
+      {
+        "name": "Dr. Ana Costa",
+        "role": "Veterinarian",
+        "specialization": "Dental & Exotic Animals",
+        "image": "/team/ana.webp"
+      },
+      {
+        "name": "Sofia Oliveira",
+        "role": "Vet Nurse",
+        "specialization": "Patient Care & Recovery",
+        "image": "/team/sofia.webp"
+      }
     ]
   },
   "galleryStrip": {
     "images": [
-      { "src": "/gallery/1.webp", "alt": "Dog being examined by veterinarian" },
-      { "src": "/gallery/2.webp", "alt": "Cat resting after treatment" },
-      { "src": "/gallery/3.webp", "alt": "VetTop clinic reception area" },
-      { "src": "/gallery/4.webp", "alt": "Veterinary team at work" },
-      { "src": "/gallery/5.webp", "alt": "Happy dog after grooming" },
-      { "src": "/gallery/6.webp", "alt": "Modern veterinary equipment" }
+      {
+        "src": "/gallery/1.webp",
+        "alt": "Dog being examined by veterinarian"
+      },
+      {
+        "src": "/gallery/2.webp",
+        "alt": "Cat resting after treatment"
+      },
+      {
+        "src": "/gallery/3.webp",
+        "alt": "VetTop clinic reception area"
+      },
+      {
+        "src": "/gallery/4.webp",
+        "alt": "Veterinary team at work"
+      },
+      {
+        "src": "/gallery/5.webp",
+        "alt": "Happy dog after grooming"
+      },
+      {
+        "src": "/gallery/6.webp",
+        "alt": "Modern veterinary equipment"
+      }
     ]
   },
   "reviews": {
@@ -92,12 +218,42 @@
     "title_line2": "SAY",
     "subtitle": "Real stories from the families who trust us with their pets.",
     "items": [
-      { "quote": "We were always impressed by the professionalism and dedication at VetTop. If we hadn't moved to another town, we would still be bringing our difficult dog to this clinic. Highly recommended!", "name": "Philipp B.", "role": "Google Review", "avatar": null },
-      { "quote": "When I brought Lily to Vet Top, they immediately understood the situation and knew exactly what to do. Within just a few days, Lily started feeling better, and now she's completely recovered. I am beyond grateful!", "name": "Roberta D.", "role": "Local Guide", "avatar": null },
-      { "quote": "Dr. Daniel is tireless. Even though I've moved, I still bring my dogs to VetTop. Best veterinary clinic.", "name": "Carla O.", "role": "Google Review", "avatar": null },
-      { "quote": "I moved to Oeiras and needed a new vet for my two kittens. Dr. Daniel did much more than just a vaccination — he won over my cats from the first contact. I am immensely grateful for all the affection and attention.", "name": "Vanessa", "role": "Local Guide", "avatar": null },
-      { "quote": "I've been bringing my dogs to VetTop for almost 8 years and I love it! Thank you Dr. Daniel for all your attention — an excellent veterinarian!", "name": "Paula O.", "role": "Google Review", "avatar": null },
-      { "quote": "Great welcome. Patient, attentive, and very careful consultation with our elderly and sick dog. I recommend.", "name": "Carla A.", "role": "Local Guide", "avatar": null }
+      {
+        "quote": "We were always impressed by the professionalism and dedication at VetTop. If we hadn't moved to another town, we would still be bringing our difficult dog to this clinic. Highly recommended!",
+        "name": "Philipp B.",
+        "role": "Google Review",
+        "avatar": null
+      },
+      {
+        "quote": "When I brought Lily to Vet Top, they immediately understood the situation and knew exactly what to do. Within just a few days, Lily started feeling better, and now she's completely recovered. I am beyond grateful!",
+        "name": "Roberta D.",
+        "role": "Local Guide",
+        "avatar": null
+      },
+      {
+        "quote": "Dr. Daniel is tireless. Even though I've moved, I still bring my dogs to VetTop. Best veterinary clinic.",
+        "name": "Carla O.",
+        "role": "Google Review",
+        "avatar": null
+      },
+      {
+        "quote": "I moved to Oeiras and needed a new vet for my two kittens. Dr. Daniel did much more than just a vaccination — he won over my cats from the first contact. I am immensely grateful for all the affection and attention.",
+        "name": "Vanessa",
+        "role": "Local Guide",
+        "avatar": null
+      },
+      {
+        "quote": "I've been bringing my dogs to VetTop for almost 8 years and I love it! Thank you Dr. Daniel for all your attention — an excellent veterinarian!",
+        "name": "Paula O.",
+        "role": "Google Review",
+        "avatar": null
+      },
+      {
+        "quote": "Great welcome. Patient, attentive, and very careful consultation with our elderly and sick dog. I recommend.",
+        "name": "Carla A.",
+        "role": "Local Guide",
+        "avatar": null
+      }
     ]
   },
   "googleReviews": {
@@ -117,9 +273,18 @@
     "emergency_phone": "+351 21 195 0873",
     "emergency_cta": "Call Emergency",
     "schedule": [
-      { "day": "Monday – Friday", "hours": "9:30 – 13:00, 14:30 – 21:00" },
-      { "day": "Saturday", "hours": "9:30 – 13:00, 14:30 – 19:00" },
-      { "day": "Sunday", "hours": "Closed" }
+      {
+        "day": "Monday – Friday",
+        "hours": "9:30 – 13:00, 14:30 – 21:00"
+      },
+      {
+        "day": "Saturday",
+        "hours": "9:30 – 13:00, 14:30 – 19:00"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Closed"
+      }
     ]
   },
   "pricing": {
@@ -135,21 +300,39 @@
         "price": "€45",
         "period": "per visit",
         "popular": false,
-        "features": ["General health exam", "Weight & vitals check", "Deworming recommendation", "Vaccination review"]
+        "features": [
+          "General health exam",
+          "Weight & vitals check",
+          "Deworming recommendation",
+          "Vaccination review"
+        ]
       },
       {
         "name": "Wellness Plan",
         "price": "€25",
         "period": "per month",
         "popular": true,
-        "features": ["2 annual checkups", "All core vaccinations", "Dental cleaning", "10% off surgeries", "Priority scheduling"]
+        "features": [
+          "2 annual checkups",
+          "All core vaccinations",
+          "Dental cleaning",
+          "10% off surgeries",
+          "Priority scheduling"
+        ]
       },
       {
         "name": "Senior Care",
         "price": "€35",
         "period": "per month",
         "popular": false,
-        "features": ["Quarterly checkups", "Blood work & diagnostics", "All core vaccinations", "Dental cleaning", "15% off all services", "Priority emergency access"]
+        "features": [
+          "Quarterly checkups",
+          "Blood work & diagnostics",
+          "All core vaccinations",
+          "Dental cleaning",
+          "15% off all services",
+          "Priority emergency access"
+        ]
       }
     ]
   },
@@ -157,12 +340,30 @@
     "title_line1": "COMMON",
     "title_line2": "QUESTIONS",
     "items": [
-      { "question": "Do I need an appointment?", "answer": "We recommend booking ahead, but walk-ins are welcome during regular hours based on availability." },
-      { "question": "What animals do you treat?", "answer": "We primarily treat dogs and cats, but also see rabbits, hamsters, and other small animals. Contact us for exotic species." },
-      { "question": "Is emergency care available?", "answer": "Yes. Existing patients can reach our 24/7 emergency line. New patients are welcome during our extended emergency hours." },
-      { "question": "Do you offer payment plans?", "answer": "Yes, for surgeries and larger treatments we offer flexible payment options. Ask at reception for details." },
-      { "question": "How often should my pet have a checkup?", "answer": "We recommend annual checkups for adult pets and twice yearly for seniors (7+ years). Puppies and kittens need more frequent visits." },
-      { "question": "Do you provide pet insurance support?", "answer": "We work with all major pet insurance providers in Portugal and can provide detailed invoices for reimbursement claims." }
+      {
+        "question": "Do I need an appointment?",
+        "answer": "We recommend booking ahead, but walk-ins are welcome during regular hours based on availability."
+      },
+      {
+        "question": "What animals do you treat?",
+        "answer": "We primarily treat dogs and cats, but also see rabbits, hamsters, and other small animals. Contact us for exotic species."
+      },
+      {
+        "question": "Is emergency care available?",
+        "answer": "Yes. Existing patients can reach our 24/7 emergency line. New patients are welcome during our extended emergency hours."
+      },
+      {
+        "question": "Do you offer payment plans?",
+        "answer": "Yes, for surgeries and larger treatments we offer flexible payment options. Ask at reception for details."
+      },
+      {
+        "question": "How often should my pet have a checkup?",
+        "answer": "We recommend annual checkups for adult pets and twice yearly for seniors (7+ years). Puppies and kittens need more frequent visits."
+      },
+      {
+        "question": "Do you provide pet insurance support?",
+        "answer": "We work with all major pet insurance providers in Portugal and can provide detailed invoices for reimbursement claims."
+      }
     ]
   },
   "contact": {
@@ -189,9 +390,23 @@
     "contact_label": "Email or phone number",
     "pet_name_label": "Pet's name",
     "pet_type_label": "Type of pet",
-    "pet_types": ["Dog", "Cat", "Rabbit", "Bird", "Other"],
+    "pet_types": [
+      "Dog",
+      "Cat",
+      "Rabbit",
+      "Bird",
+      "Other"
+    ],
     "service_label": "Service needed",
-    "service_options": ["General Checkup", "Vaccination", "Surgery Consultation", "Dental Care", "Grooming", "Emergency", "Other"],
+    "service_options": [
+      "General Checkup",
+      "Vaccination",
+      "Surgery Consultation",
+      "Dental Care",
+      "Grooming",
+      "Emergency",
+      "Other"
+    ],
     "note_label": "Additional notes (optional)",
     "date_label": "Pick a date",
     "time_label": "Preferred time",
@@ -199,9 +414,51 @@
     "success_title": "Appointment Requested!",
     "success_body": "We'll confirm your booking via email or phone shortly.",
     "back_cta": "Book another appointment",
-    "times": ["9:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00", "17:30", "18:00", "18:30", "19:00", "19:30", "20:00", "20:30"],
-    "days": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
-    "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    "times": [
+      "9:30",
+      "10:00",
+      "10:30",
+      "11:00",
+      "11:30",
+      "12:00",
+      "12:30",
+      "14:30",
+      "15:00",
+      "15:30",
+      "16:00",
+      "16:30",
+      "17:00",
+      "17:30",
+      "18:00",
+      "18:30",
+      "19:00",
+      "19:30",
+      "20:00",
+      "20:30"
+    ],
+    "days": [
+      "Sun",
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "months": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
   },
   "appointmentBar": {
     "cta_book": "Book Appointment",
@@ -222,13 +479,144 @@
     "find_us_label": "Find Us",
     "made_in": "Made in Portugal",
     "nav_links": [
-      { "id": "about", "label": "About" },
-      { "id": "services", "label": "Services" },
-      { "id": "team", "label": "Team" },
-      { "id": "testimonials", "label": "Reviews" },
-      { "id": "pricing", "label": "Plans" },
-      { "id": "faq", "label": "FAQ" },
-      { "id": "contact", "label": "Contact" }
+      {
+        "id": "about",
+        "label": "About"
+      },
+      {
+        "id": "services",
+        "label": "Services"
+      },
+      {
+        "id": "team",
+        "label": "Team"
+      },
+      {
+        "id": "testimonials",
+        "label": "Reviews"
+      },
+      {
+        "id": "pricing",
+        "label": "Plans"
+      },
+      {
+        "id": "faq",
+        "label": "FAQ"
+      },
+      {
+        "id": "contact",
+        "label": "Contact"
+      }
+    ]
+  },
+  "socials": {
+    "title": "Your future social presence",
+    "subtitle": "A preview of how your Instagram, Facebook, and LinkedIn would look next month.",
+    "labels": {
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "linkedin": "LinkedIn"
+    },
+    "ui": {
+      "facebookSubtitle": "Sponsored · Public",
+      "linkedinSubtitle": "Business · 1d",
+      "carouselPrevious": "Previous slide",
+      "carouselNext": "Next slide",
+      "carouselGoTo": "Go to slide {n}"
+    },
+    "posts": [
+      {
+        "id": "01-tip-education",
+        "contentType": "tip-education",
+        "contentLabel": "Tip #1",
+        "media": {
+          "type": "data-carousel",
+          "slides": 5
+        },
+        "images": [
+          "/socials/01-tip-education/instagram-1.jpg",
+          "/socials/01-tip-education/instagram-2.jpg",
+          "/socials/01-tip-education/instagram-3.jpg",
+          "/socials/01-tip-education/instagram-4.jpg",
+          "/socials/01-tip-education/instagram-5.jpg"
+        ],
+        "captions": {
+          "instagram": "O teu gato dorme mais do que o costume. Salta menos para o sofá. Come, mas devagar. 🐈\n\nNão está só \"preguiçoso\".\n\nOs gatos são mestres a esconder dor — é instinto de sobrevivência. Quando finalmente percebemos que algo está mal, muitas vezes o problema já vem de longe.\n\nA dica: presta atenção a mudanças subtis no comportamento. Diferenças no uso da caixa de areia, deixar de \"amassar pãozinho\", esconder-se em sítios novos, parar de se lavar. Tudo isto pode ser sinal de dor articular, dentária ou renal.\n\nNa dúvida, marca consulta. Em Oeiras, há mais de 20 anos a cuidar de gatos como o teu. 🐾\n\nLink in bio 👆\n\n#VetTopClínicaVeterinária #Veterinarian #Oeiras #Portugal #NegóciosLocais #Gatos #SaúdeAnimal #ClínicaVeterinária #PetCare #Veterinário #CuidadosComOPet #VetOeiras #AmoOMeuGato",
+          "facebook": "Sabias que mais de 80% dos cães e gatos com mais de 3 anos já têm algum tipo de doença dentária? 🦷\n\nE o pior: a maior parte dos donos só percebe quando o mau hálito está insuportável — ou quando o animal começa a recusar comida seca.\n\nA dica: uma vez por semana, levanta delicadamente o lábio do teu cão ou gato e olha para a linha das gengivas. Se vires tártaro amarelado, gengivas vermelhas ou sangue, é altura de marcar consulta. A destartarização feita a tempo evita extrações e infeções que podem chegar ao coração e aos rins.\n\nEm Oeiras, fazemos consultas dentárias completas com radiografia e limpeza sob anestesia segura. Há quanto tempo é que não olhaste para a boca do teu animal? 🐾\n\nhttps://vettop.vercel.app\n\n#VetTopClínicaVeterinária #Veterinarian #Oeiras"
+        }
+      },
+      {
+        "id": "02-service-spotlight",
+        "contentType": "service-spotlight",
+        "contentLabel": "General Consultations",
+        "media": {
+          "type": "data-carousel",
+          "slides": 5
+        },
+        "images": [
+          "/socials/02-service-spotlight/instagram-1.jpg",
+          "/socials/02-service-spotlight/instagram-2.jpg",
+          "/socials/02-service-spotlight/instagram-3.jpg",
+          "/socials/02-service-spotlight/instagram-4.jpg",
+          "/socials/02-service-spotlight/instagram-5.jpg"
+        ],
+        "captions": {
+          "instagram": "\"Ele anda mais quieto que o normal. Mas come bem, então não deve ser nada...\"\n\nJá encontrámos tumores numa fase ainda tratável assim. Cardiopatias silenciosas. Problemas dentários que causavam dor há meses sem ninguém saber. 🐶🐱\n\nUma consulta geral não é uma formalidade. É o momento em que olhamos para o seu animal de cima a baixo — pele, ouvidos, dentes, articulações, peso, comportamento — e ligamos pontos que em casa passam despercebidos.\n\nDepois explicamos tudo. Sem pressa, sem termos científicos atirados ao ar.\n\nEm Oeiras desde 2005, a fazer prevenção a sério.\n\nMarque já o check-up anual do seu pet. Link in bio 👆\n\n#VetTopClínicaVeterinária #Veterinarian #Oeiras #Portugal #NegóciosLocais #ClínicaVeterinária #SaúdeAnimal #VeterinárioOeiras #PrevençãoVeterinária #PetCarePortugal #CãesEGatos #ConsultaVeterinária #CheckUpAnimal",
+          "facebook": "Sabe aquela sensação de levar o cão ao veterinário e sair sem perceber metade do que foi dito? 🐾\n\nNa consulta geral da VetTop fazemos diferente. Não é só pesar, ouvir o coração e despachar — é um exame completo (pele, dentes, articulações, peso, comportamento) e depois sentamo-nos consigo a explicar tudo, com calma, em português claro.\n\nPorque o seu animal não consegue dizer onde dói. Mas nós conseguimos descobrir antes que se torne um problema sério. 💙\n\nEm Oeiras desde 2005, a fazer prevenção a sério.\n\nQuando foi a última vez que o seu cão ou gato fez um check-up completo?\n\nhttps://vettop.vercel.app\n\n#VetTopClínicaVeterinária #Veterinarian #Oeiras"
+        }
+      },
+      {
+        "id": "03-faq-answer",
+        "contentType": "faq-answer",
+        "contentLabel": "Do I need an appointment?",
+        "media": {
+          "type": "data-carousel",
+          "slides": 5
+        },
+        "images": [
+          "/socials/03-faq-answer/instagram-1.jpg",
+          "/socials/03-faq-answer/instagram-2.jpg",
+          "/socials/03-faq-answer/instagram-3.jpg"
+        ],
+        "captions": {
+          "instagram": "«Preciso de marcar antes de levar o meu cão?» 🐾\n\nÉ a pergunta que mais nos chega à recepção.\n\nResposta direta: sim, recomendamos marcação. Garante que o veterinário tem tempo só para o teu pet, sem corridas e sem esperas longas com um animal stressado ao colo.\n\nMas se apareceres durante o horário normal, fazemos o possível por encaixar-te — depende sempre da agenda do dia.\n\nEm casos urgentes, liga-nos primeiro. Preparamos tudo para receber assim que chegares à porta. 💬\n\nMais alguma dúvida sobre como trabalhamos? Manda DM ou deixa nos comentários.\n\nLink in bio 👆\n\n#VetTopClínicaVeterinária #Veterinarian #Oeiras #Portugal #NegóciosLocais #Veterinário #ClínicaVeterinária #SaúdeAnimal #PetCare #Pets #CãesEGatos #OeirasPet #VeterinárioOeiras #AmigosDePatas",
+          "facebook": "Precisas de marcar consulta antes de vir? 🐾\n\nA resposta honesta: recomendamos marcar, sim. Mas se aparecer com o teu pet durante o horário normal, fazemos o possível por encaixá-lo — vai sempre depender da agenda do dia.\n\nA razão é simples: marcação garante que o veterinário tem tempo dedicado ao teu animal, sem pressas e sem esperas longas na sala. Em situações urgentes, liga-nos primeiro — preparamos tudo para receber assim que chegares à porta. 💬\n\nTens outra dúvida sobre como funcionamos? Pergunta nos comentários, respondemos a todas.\n\nhttps://vettop.vercel.app\n\n#VetTopClínicaVeterinária #Oeiras #NegóciosLocais"
+        }
+      },
+      {
+        "id": "04-service-spotlight",
+        "contentType": "service-spotlight",
+        "contentLabel": "Surgery",
+        "media": {
+          "type": "carousel",
+          "slides": 3
+        },
+        "images": [
+          "/socials/04-service-spotlight/instagram-1.jpg",
+          "/socials/04-service-spotlight/instagram-2.jpg",
+          "/socials/04-service-spotlight/instagram-3.jpg"
+        ],
+        "captions": {
+          "instagram": "\"Vai correr tudo bem com ele?\"\n\nÉ a pergunta que ouvimos em cada véspera de cirurgia. E a resposta começa muito antes do bloco operatório. 🐾\n\nCada cirurgia na VetTop — seja uma esterilização ou um procedimento complexo — passa por exames pré-operatórios, anestesia monitorizada continuamente e um plano de recuperação personalizado.\n\nA precisão é técnica. O cuidado é pessoal. Há mais de 20 anos em Oeiras a fazer assim.\n\nLink in bio 👆\n\n#VetTopClínicaVeterinária #Veterinarian #Oeiras #Portugal #NegóciosLocais #CirurgiaVeterinária #SaúdeAnimal #ClínicaVeterináriaOeiras #PetsDeOeiras #VeterinárioOeiras #CuidadosVeterinários #EsterilizaçãoAnimal #AmoOsMeusPets",
+          "facebook": "A cirurgia é sempre o momento mais nervoso para qualquer tutor. 🐾\n\nSabemos isso. É por isso que, na VetTop, cada procedimento — desde a esterilização de rotina até cirurgias mais complexas — segue o mesmo protocolo rigoroso: avaliação pré-operatória completa, anestesia monitorizada ao minuto, e acompanhamento dedicado no pós-operatório.\n\nNão tratamos o teu animal como mais um caso. Tratamos como se fosse nosso. Desde 2005, em Oeiras, é assim que trabalhamos. ❤️\n\nTens dúvidas sobre uma cirurgia que o teu veterinário recomendou? Marca uma consulta — explicamos tudo, sem pressas.\n\nhttps://vettop.vercel.app\n\n#VetTopClínicaVeterinária #Veterinarian #Oeiras"
+        }
+      },
+      {
+        "id": "05-review-highlight",
+        "contentType": "review-highlight",
+        "contentLabel": "Review by Philipp Bürger",
+        "media": {
+          "type": "single",
+          "slides": 1
+        },
+        "images": [
+          "/socials/05-review-highlight/instagram.jpg"
+        ],
+        "captions": {
+          "instagram": "Um cão difícil.\n\nAqueles que tremem à entrada, que precisam de mais tempo, mais paciência, mais jeito. 🐾\n\nO Philipp confiou-nos o dele durante anos. Entretanto mudou-se de Oeiras — e mesmo assim deixou-nos esta mensagem:\n\n«Sempre ficámos impressionados com o profissionalismo e dedicação na VetTop. Se não tivéssemos mudado, continuaríamos a trazer o nosso cão difícil a esta clínica.»\n\nCinco estrelas vindas de quem já vive longe. ⭐\n\nÉ por animais como o dele — e por tutores como o Philipp — que continuamos aqui há mais de duas décadas.\n\nObrigado. 💙\n\nLink in bio 👆\n\n#VetTopClínicaVeterinária #Veterinarian #Oeiras #Portugal #NegóciosLocais #VeterinárioOeiras #ClínicaVeterinária #SaúdeAnimal #AmoOMeuCão #PetCarePortugal #CãesDePortugal #AnimaisDeEstimação #VetLife",
+          "facebook": "O Philipp e a família já não vivem em Oeiras. Mas o que nos deixaram fica. 🐾\n\n«Sempre ficámos impressionados com o profissionalismo e dedicação na VetTop. Se não tivéssemos mudado para outra cidade, continuaríamos a trazer o nosso cão difícil a esta clínica. Altamente recomendado!»\n\nCinco estrelas vindas de quem já vive longe — é o reconhecimento mais bonito que podemos receber. 💙\n\nHá animais que precisam de mais paciência, mais tempo, mais cuidado. E é por eles que continuamos aqui, há mais de duas décadas em Oeiras.\n\nE vocês, qual foi a última vez que um veterinário fez mesmo a diferença com o vosso animal?\n\nhttps://vettop.vercel.app\n\n#VetTopClínicaVeterinária #Oeiras #NegóciosLocais"
+        }
+      }
     ]
   }
 }

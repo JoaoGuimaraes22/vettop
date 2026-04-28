@@ -44,3 +44,4 @@ next-env.d.ts
 # dashboard-generated
 info/flags.json
 info/notes.md
+/socials-internals/
