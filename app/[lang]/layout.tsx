@@ -5,6 +5,7 @@ import { getDictionary, hasLocale } from "./dictionaries";
 import { notFound } from "next/navigation";
 import { i18n } from "@/i18n-config";
 import { MotionConfig } from "motion/react";
+import DemoBanner from "./_components/demo-banner";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,6 +38,7 @@ export async function generateMetadata({
   const ogLocales: Record<string, string> = { pt: "pt_PT", en: "en_US" };
 
   return {
+    robots: { index: false, follow: false },
     title,
     description,
     alternates: {
@@ -107,6 +109,7 @@ export default async function RootLayout({
           />
           {children}
         </MotionConfig>
+        <DemoBanner lang={lang} />
       </body>
     </html>
   );
